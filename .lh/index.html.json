@@ -1,0 +1,210 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 48,
+            "patches": [
+                {
+                    "date": 1706294127058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706294147294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,9 @@\n   <title>Frontend Mentor | NFT preview card component</title>\n \n   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n   <style>\n-    .attribution { font-size: 11px; text-align: center; }\n-    .attribution a { color: hsl(228, 45%, 44%); }\n+    \n   </style>\n </head>\n <body>\n \n"
+                },
+                {
+                    "date": 1706294162513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,8 @@\n   <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n   <link rel=\"stylesheet\" href=\"style.css\">\n   <title>Frontend Mentor | NFT preview card component</title>\n \n-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n-  <style>\n-    \n-  </style>\n </head>\n <body>\n \n   Equilibrium #3429\n"
+                },
+                {
+                    "date": 1706294216933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,19 @@\n   0.041 ETH\n   3 days left\n   \n   Creation of Jules Wyvern\n-\n-  <div class=\"attribution\">\n-    Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\">Frontend Mentor</a>. \n-    Coded by <a href=\"#\">Your Name Here</a>.\n+  \n+  <footer>\n+    <div class=\"attribution\">\n+        Challenge by\n+        <a\n+            href=\"https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS\"\n+            target=\"_blank\"\n+            rel=\"noopener noreferer\"\n+            >Frontend Mentor</a\n+        >. Coded by <a href=\"https://github.com/cipdanila\" target=\"_blank\" rel=\"noopener noreferer\">Ciprian Danila</a>.\n+    </div>\n+</footer>\n   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1706294252556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,14 +18,14 @@\n   0.041 ETH\n   3 days left\n   \n   Creation of Jules Wyvern\n-  \n+\n   <footer>\n     <div class=\"attribution\">\n         Challenge by\n         <a\n-            href=\"https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS\"\n+            href=\"https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U\"\n             target=\"_blank\"\n             rel=\"noopener noreferer\"\n             >Frontend Mentor</a\n         >. Coded by <a href=\"https://github.com/cipdanila\" target=\"_blank\" rel=\"noopener noreferer\">Ciprian Danila</a>.\n"
+                },
+                {
+                    "date": 1706294307170,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,11 @@\n   <title>Frontend Mentor | NFT preview card component</title>\n \n </head>\n <body>\n+  <main>\n+    <div class=\"container\"></div>\n+  </main>\n \n   Equilibrium #3429\n \n   Our Equilibrium collection promotes balance and calm.\n"
+                },
+                {
+                    "date": 1706295388350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,11 @@\n \n </head>\n <body>\n   <main>\n-    <div class=\"container\"></div>\n+    <div class=\"container\">\n+      <div class=\"image\"></div>\n+    </div>\n   </main>\n \n   Equilibrium #3429\n \n"
+                },
+                {
+                    "date": 1706295405071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,11 @@\n </head>\n <body>\n   <main>\n     <div class=\"container\">\n-      <div class=\"image\"></div>\n+      <div class=\"image\">\n+        <img src=\"/images/\" alt=\"\">\n+      </div>\n     </div>\n   </main>\n \n   Equilibrium #3429\n"
+                },
+                {
+                    "date": 1706295439314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n <body>\n   <main>\n     <div class=\"container\">\n       <div class=\"image\">\n-        <img src=\"/images/\" alt=\"\">\n+        <img src=\"/images/image-equilibrium.jpg\" alt=\"image\">\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706295457423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n <body>\n   <main>\n     <div class=\"container\">\n       <div class=\"image\">\n-        <img src=\"/images/image-equilibrium.jpg\" alt=\"image\">\n+        <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-image-equilibrium\">\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706295794262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n <body>\n   <main>\n     <div class=\"container\">\n       <div class=\"image\">\n-        <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-image-equilibrium\">\n+        <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\">\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706300796684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     <div class=\"container\">\n       <div class=\"image\">\n         <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\">\n       </div>\n+      \n     </div>\n   </main>\n \n   Equilibrium #3429\n"
+                },
+                {
+                    "date": 1706300828006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n     <div class=\"container\">\n       <div class=\"image\">\n         <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\">\n       </div>\n-      \n+      <div class=\"info\">\n+        \n+      </div>\n     </div>\n   </main>\n \n   Equilibrium #3429\n"
+                },
+                {
+                    "date": 1706300846443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,14 +15,13 @@\n       <div class=\"image\">\n         <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\">\n       </div>\n       <div class=\"info\">\n-        \n+        <h1>Equilibrium #3429</h1>\n       </div>\n     </div>\n   </main>\n \n-  Equilibrium #3429\n \n   Our Equilibrium collection promotes balance and calm.\n \n   0.041 ETH\n"
+                },
+                {
+                    "date": 1706300867302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,14 +16,14 @@\n         <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\">\n       </div>\n       <div class=\"info\">\n         <h1>Equilibrium #3429</h1>\n+        <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n     </div>\n   </main>\n \n \n-  Our Equilibrium collection promotes balance and calm.\n \n   0.041 ETH\n   3 days left\n   \n"
+                },
+                {
+                    "date": 1706300908360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,11 @@\n       <div class=\"info\">\n         <h1>Equilibrium #3429</h1>\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n+      <div class=\"time\">\n+        \n+      </div>\n     </div>\n   </main>\n \n \n"
+                },
+                {
+                    "date": 1706301081071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     <div class=\"container\">\n       <div class=\"image\">\n         <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\">\n       </div>\n-      <div class=\"info\">\n+      <div class=\"details\">\n         <h1>Equilibrium #3429</h1>\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n       <div class=\"time\">\n"
+                },
+                {
+                    "date": 1706301089121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         <h1>Equilibrium #3429</h1>\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n       <div class=\"time\">\n-        \n+        p.\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301118691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         <h1>Equilibrium #3429</h1>\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n       <div class=\"time\">\n-        p.\n+        <p class=\"ethereum\"></p>\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301147780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,11 @@\n         <h1>Equilibrium #3429</h1>\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n       <div class=\"time\">\n-        <p class=\"ethereum\"></p>\n+        <p class=\"ethereum\">\n+          <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n+        </p>\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301163815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,10 +19,10 @@\n         <h1>Equilibrium #3429</h1>\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n       <div class=\"time\">\n+        <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n         <p class=\"ethereum\">\n-          <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n         </p>\n       </div>\n     </div>\n   </main>\n"
+                },
+                {
+                    "date": 1706301177614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,10 @@\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n       <div class=\"time\">\n         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n-        <p class=\"ethereum\">\n-        </p>\n+        <p class=\"ethereum\">0.041ETH</p>\n+        \n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301208290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,10 @@\n       </div>\n       <div class=\"time\">\n         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n         <p class=\"ethereum\">0.041ETH</p>\n-        \n+        <img src=\"/images/icon-clock.svg\" alt=\"clock\">\n+        <p class=\"clock\"></p>\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301218693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n       <div class=\"time\">\n         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n         <p class=\"ethereum\">0.041ETH</p>\n         <img src=\"/images/icon-clock.svg\" alt=\"clock\">\n-        <p class=\"clock\"></p>\n+        <p class=\"clock\">3 days left</p>\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301227435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n         <p class=\"ethereum\">0.041ETH</p>\n         <img src=\"/images/icon-clock.svg\" alt=\"clock\">\n         <p class=\"clock\">3 days left</p>\n       </div>\n+      <hr>\n     </div>\n   </main>\n \n \n"
+                },
+                {
+                    "date": 1706301242066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n         <img src=\"/images/icon-clock.svg\" alt=\"clock\">\n         <p class=\"clock\">3 days left</p>\n       </div>\n       <hr>\n+      <div class=\"owner\"></div>\n     </div>\n   </main>\n \n \n"
+                },
+                {
+                    "date": 1706301255665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,11 @@\n         <img src=\"/images/icon-clock.svg\" alt=\"clock\">\n         <p class=\"clock\">3 days left</p>\n       </div>\n       <hr>\n-      <div class=\"owner\"></div>\n+      <div class=\"owner\">\n+        <img src=\"/images/image-avatar.png\" alt=\"avatar\">\n+      </div>\n     </div>\n   </main>\n \n \n"
+                },
+                {
+                    "date": 1706301269098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n       </div>\n       <hr>\n       <div class=\"owner\">\n         <img src=\"/images/image-avatar.png\" alt=\"avatar\">\n+        <p>Creation </p>\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301280905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n       </div>\n       <hr>\n       <div class=\"owner\">\n         <img src=\"/images/image-avatar.png\" alt=\"avatar\">\n-        <p>Creation </p>\n+        <p>Creation of <span>Jules</span></p>\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301287124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n       </div>\n       <hr>\n       <div class=\"owner\">\n         <img src=\"/images/image-avatar.png\" alt=\"avatar\">\n-        <p>Creation of <span>Jules</span></p>\n+        <p>Creation of <span>Jules Wyvern</span></p>\n       </div>\n     </div>\n   </main>\n \n"
+                },
+                {
+                    "date": 1706301344730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         <p>Our Equilibrium collection promotes balance and calm.</p>\n       </div>\n       <div class=\"time\">\n         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n-        <p class=\"ethereum\">0.041ETH</p>\n+        <p class=\"ethereum\">0.041 ETH</p>\n         <img src=\"/images/icon-clock.svg\" alt=\"clock\">\n         <p class=\"clock\">3 days left</p>\n       </div>\n       <hr>\n@@ -32,15 +32,8 @@\n       </div>\n     </div>\n   </main>\n \n-\n-\n-  0.041 ETH\n-  3 days left\n-  \n-  Creation of Jules Wyvern\n-\n   <footer>\n     <div class=\"attribution\">\n         Challenge by\n         <a\n"
+                },
+                {
+                    "date": 1706301480908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,49 +1,48 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n-<head>\n-  <meta charset=\"UTF-8\">\n-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n+    <head>\n+        <meta charset=\"UTF-8\" />\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+        <!-- displays site properly based on user's device -->\n \n-  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n-  <link rel=\"stylesheet\" href=\"style.css\">\n-  <title>Frontend Mentor | NFT preview card component</title>\n+        <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\" />\n+        <link rel=\"stylesheet\" href=\"style.css\" />\n+        <title>Frontend Mentor | NFT preview card component</title>\n+    </head>\n+    <body>\n+        <main>\n+            <div class=\"container\">\n+                <div class=\"image\">\n+                    <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n+                </div>\n+                <div class=\"details\">\n+                    <h1>Equilibrium #3429</h1>\n+                    <p>Our Equilibrium collection promotes balance and calm.</p>\n+                </div>\n+                <div class=\"time\">\n+                    <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n+                    <p class=\"ethereum\">0.041 ETH</p>\n+                    <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n+                    <p class=\"clock\">3 days left</p>\n+                </div>\n+                <hr />\n+                <div class=\"owner\">\n+                    <img src=\"/images/image-avatar.png\" alt=\"avatar\" />\n+                    <p>Creation of <span>Jules Wyvern</span></p>\n+                </div>\n+            </div>\n+        </main>\n \n-</head>\n-<body>\n-  <main>\n-    <div class=\"container\">\n-      <div class=\"image\">\n-        <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\">\n-      </div>\n-      <div class=\"details\">\n\\ No newline at end of file\n-        <h1>Equilibrium #3429</h1>\n-        <p>Our Equilibrium collection promotes balance and calm.</p>\n-      </div>\n-      <div class=\"time\">\n-        <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\">\n-        <p class=\"ethereum\">0.041 ETH</p>\n-        <img src=\"/images/icon-clock.svg\" alt=\"clock\">\n-        <p class=\"clock\">3 days left</p>\n-      </div>\n-      <hr>\n-      <div class=\"owner\">\n-        <img src=\"/images/image-avatar.png\" alt=\"avatar\">\n-        <p>Creation of <span>Jules Wyvern</span></p>\n-      </div>\n-    </div>\n-  </main>\n-\n-  <footer>\n-    <div class=\"attribution\">\n-        Challenge by\n-        <a\n-            href=\"https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U\"\n-            target=\"_blank\"\n-            rel=\"noopener noreferer\"\n-            >Frontend Mentor</a\n-        >. Coded by <a href=\"https://github.com/cipdanila\" target=\"_blank\" rel=\"noopener noreferer\">Ciprian Danila</a>.\n-    </div>\n-</footer>\n-  </div>\n-</body>\n-</html>\n+        <footer>\n+            <div class=\"attribution\">\n+                Challenge by\n+                <a\n+                    href=\"https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U\"\n+                    target=\"_blank\"\n+                    rel=\"noopener noreferer\"\n+                    >Frontend Mentor</a\n+                >. Coded by <a href=\"https://github.com/cipdanila\" target=\"_blank\" rel=\"noopener noreferer\">Ciprian Danila</a>.\n+            </div>\n+        </footer>\n+    </body>\n+</html>\n"
+                },
+                {
+                    "date": 1706302265783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,17 +15,19 @@\n                 <div class=\"image\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                 </div>\n                 <div class=\"details\">\n+                  <div class=\"info\">\n                     <h1>Equilibrium #3429</h1>\n                     <p>Our Equilibrium collection promotes balance and calm.</p>\n+                  </div>\n+                  <div class=\"time\">\n+                      <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n+                      <p class=\"ethereum\">0.041 ETH</p>\n+                      <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n+                      <p class=\"clock\">3 days left</p>\n+                  </div>\n                 </div>\n-                <div class=\"time\">\n-                    <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n-                    <p class=\"ethereum\">0.041 ETH</p>\n-                    <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n-                    <p class=\"clock\">3 days left</p>\n-                </div>\n                 <hr />\n                 <div class=\"owner\">\n                     <img src=\"/images/image-avatar.png\" alt=\"avatar\" />\n                     <p>Creation of <span>Jules Wyvern</span></p>\n"
+                },
+                {
+                    "date": 1706471605451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,23 +10,23 @@\n         <title>Frontend Mentor | NFT preview card component</title>\n     </head>\n     <body>\n         <main>\n-            <div class=\"container\">\n+            <div class=\"card\">\n                 <div class=\"image\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                 </div>\n                 <div class=\"details\">\n-                  <div class=\"info\">\n-                    <h1>Equilibrium #3429</h1>\n-                    <p>Our Equilibrium collection promotes balance and calm.</p>\n-                  </div>\n-                  <div class=\"time\">\n-                      <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n-                      <p class=\"ethereum\">0.041 ETH</p>\n-                      <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n-                      <p class=\"clock\">3 days left</p>\n-                  </div>\n+                    <div class=\"info\">\n+                        <h1>Equilibrium #3429</h1>\n+                        <p>Our Equilibrium collection promotes balance and calm.</p>\n+                    </div>\n+                    <div class=\"time\">\n+                        <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n+                        <p class=\"ethereum\">0.041 ETH</p>\n+                        <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n+                        <p class=\"clock\">3 days left</p>\n+                    </div>\n                 </div>\n                 <hr />\n                 <div class=\"owner\">\n                     <img src=\"/images/image-avatar.png\" alt=\"avatar\" />\n"
+                },
+                {
+                    "date": 1706471626258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,12 +11,12 @@\n     </head>\n     <body>\n         <main>\n             <div class=\"card\">\n-                <div class=\"image\">\n+                <div class=\"image-card\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                 </div>\n-                <div class=\"details\">\n+                <div class=\"text-card\">\n                     <div class=\"info\">\n                         <h1>Equilibrium #3429</h1>\n                         <p>Our Equilibrium collection promotes balance and calm.</p>\n                     </div>\n"
+                },
+                {
+                    "date": 1706472254467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                 </div>\n                 <div class=\"text-card\">\n                     <div class=\"info\">\n-                        <h1>Equilibrium #3429</h1>\n+                        <h1 class=\"title\">Equilibrium #3429</h1>\n                         <p>Our Equilibrium collection promotes balance and calm.</p>\n                     </div>\n                     <div class=\"time\">\n                         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n"
+                },
+                {
+                    "date": 1706472368350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,10 @@\n                 <div class=\"image-card\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                 </div>\n                 <div class=\"text-card\">\n-                    <div class=\"info\">\n-                        <h1 class=\"title\">Equilibrium #3429</h1>\n-                        <p>Our Equilibrium collection promotes balance and calm.</p>\n-                    </div>\n+                    <h1 class=\"title\">Equilibrium #3429</h1>\n+                    <p>Our Equilibrium collection promotes balance and calm.</p>\n                     <div class=\"time\">\n                         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n                         <p class=\"ethereum\">0.041 ETH</p>\n                         <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n"
+                },
+                {
+                    "date": 1706715368628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                 </div>\n                 <div class=\"text-card\">\n                     <h1 class=\"title\">Equilibrium #3429</h1>\n-                    <p>Our Equilibrium collection promotes balance and calm.</p>\n+                    <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n                     <div class=\"time\">\n                         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n                         <p class=\"ethereum\">0.041 ETH</p>\n                         <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n"
+                },
+                {
+                    "date": 1706715478455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n                 <div class=\"image-card\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                 </div>\n                 <div class=\"text-card\">\n-                    <h1 class=\"title\">Equilibrium #3429</h1>\n+                    <h1 id=\"title\">Equilibrium #3429</h1>\n                     <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n                     <div class=\"time\">\n                         <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n                         <p class=\"ethereum\">0.041 ETH</p>\n"
+                },
+                {
+                    "date": 1706717667066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,16 @@\n                 <div class=\"text-card\">\n                     <h1 id=\"title\">Equilibrium #3429</h1>\n                     <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n                     <div class=\"time\">\n-                        <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n-                        <p class=\"ethereum\">0.041 ETH</p>\n-                        <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n-                        <p class=\"clock\">3 days left</p>\n+                        <div class=\"ethereum\">\n+                            <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n+                            <p class=\"ethereum\">0.041 ETH</p>\n+                        </div>\n+                        <div class=\"clock\">\n+                            <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n+                            <p class=\"clock\">3 days left</p>\n+                        </div>\n                     </div>\n                 </div>\n                 <hr />\n                 <div class=\"owner\">\n"
+                },
+                {
+                    "date": 1706718246605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,13 @@\n                 <div class=\"text-card\">\n                     <h1 id=\"title\">Equilibrium #3429</h1>\n                     <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n                     <div class=\"time\">\n-                        <div class=\"ethereum\">\n+                        <div>\n                             <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n                             <p class=\"ethereum\">0.041 ETH</p>\n                         </div>\n-                        <div class=\"clock\">\n+                        <div>\n                             <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n                             <p class=\"clock\">3 days left</p>\n                         </div>\n                     </div>\n"
+                },
+                {
+                    "date": 1706718719775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n                 </div>\n                 <div class=\"text-card\">\n                     <h1 id=\"title\">Equilibrium #3429</h1>\n                     <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n-                    <div class=\"time\">\n+                    <div class=\"price-time\">\n                         <div>\n                             <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n                             <p class=\"ethereum\">0.041 ETH</p>\n                         </div>\n"
+                },
+                {
+                    "date": 1706718754374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n                 <div class=\"text-card\">\n                     <h1 id=\"title\">Equilibrium #3429</h1>\n                     <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n                     <div class=\"price-time\">\n-                        <div>\n+                        <div class=\"price\">\n                             <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n                             <p class=\"ethereum\">0.041 ETH</p>\n                         </div>\n                         <div>\n"
+                },
+                {
+                    "date": 1706718763442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n                         <div class=\"price\">\n                             <img src=\"/images/icon-ethereum.svg\" alt=\"ethereum\" />\n                             <p class=\"ethereum\">0.041 ETH</p>\n                         </div>\n-                        <div>\n+                        <div class=\"time\">\n                             <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n                             <p class=\"clock\">3 days left</p>\n                         </div>\n                     </div>\n"
+                },
+                {
+                    "date": 1706722964803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,14 +27,14 @@\n                             <img src=\"/images/icon-clock.svg\" alt=\"clock\" />\n                             <p class=\"clock\">3 days left</p>\n                         </div>\n                     </div>\n+                    <hr />\n+                    <div class=\"owner\">\n+                        <img src=\"/images/image-avatar.png\" alt=\"avatar\" />\n+                        <p>Creation of <span>Jules Wyvern</span></p>\n+                    </div>\n                 </div>\n-                <hr />\n-                <div class=\"owner\">\n-                    <img src=\"/images/image-avatar.png\" alt=\"avatar\" />\n-                    <p>Creation of <span>Jules Wyvern</span></p>\n-                </div>\n             </div>\n         </main>\n \n         <footer>\n"
+                },
+                {
+                    "date": 1706723583753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n         <main>\n             <div class=\"card\">\n                 <div class=\"image-card\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n+                    \n                 </div>\n                 <div class=\"text-card\">\n                     <h1 id=\"title\">Equilibrium #3429</h1>\n                     <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n"
+                },
+                {
+                    "date": 1706723609267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,11 @@\n         <main>\n             <div class=\"card\">\n                 <div class=\"image-card\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n-                    \n+                    <div>\n+                        <img src=\"./images/icon-view.svg\" alt=\"\">\n+                    </div>\n                 </div>\n                 <div class=\"text-card\">\n                     <h1 id=\"title\">Equilibrium #3429</h1>\n                     <p id=\"description\">Our Equilibrium collection promotes balance and calm.</p>\n"
+                },
+                {
+                    "date": 1706723626574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             <div class=\"card\">\n                 <div class=\"image-card\">\n                     <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n                     <div>\n-                        <img src=\"./images/icon-view.svg\" alt=\"\">\n+                        <img src=\"./images/icon-view.svg\" alt=\"icon-view\">\n                     </div>\n                 </div>\n                 <div class=\"text-card\">\n                     <h1 id=\"title\">Equilibrium #3429</h1>\n"
+                },
+                {
+                    "date": 1706724015354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <body>\n         <main>\n             <div class=\"card\">\n                 <div class=\"image-card\">\n-                    <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" />\n+                    <img src=\"/images/image-equilibrium.jpg\" alt=\"cube-equilibrium\" class=\"mainImg\" />\n                     <div>\n                         <img src=\"./images/icon-view.svg\" alt=\"icon-view\">\n                     </div>\n                 </div>\n"
+                }
+            ],
+            "date": 1706294127058,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <!-- displays site properly based on user's device -->\n\n  <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"./images/favicon-32x32.png\">\n  <link rel=\"stylesheet\" href=\"style.css\">\n  <title>Frontend Mentor | NFT preview card component</title>\n\n  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->\n  <style>\n    .attribution { font-size: 11px; text-align: center; }\n    .attribution a { color: hsl(228, 45%, 44%); }\n  </style>\n</head>\n<body>\n\n  Equilibrium #3429\n\n  Our Equilibrium collection promotes balance and calm.\n\n  0.041 ETH\n  3 days left\n  \n  Creation of Jules Wyvern\n\n  <div class=\"attribution\">\n    Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\">Frontend Mentor</a>. \n    Coded by <a href=\"#\">Your Name Here</a>.\n  </div>\n</body>\n</html>"
+        }
+    ]
+}

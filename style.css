@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+    /* Colors */
+    /* Primary */
+    --soft-blue: hsl(215, 51%, 70%); /* paragraph */
+    --cyan: hsl(178, 100%, 50%); /* active states */
+    /* Neutrals */
+    --very-dark-blue-main: hsl(217, 54%, 11%); /* main background */
+    --very-dark-blue-card: hsl(216, 50%, 16%); /* card background */
+    --very-dark-blue-line: hsl(215, 32%, 27%); /* hr line */
+    --white: hsl(0, 0%, 100%); /* title */
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    background-color: var(--very-dark-blue-main);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    max-width: 375px;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem rgb(rgb(12, 23, 41));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-dark-blue-card);
+}
+
+.image-card {
+    position: relative;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.image-card div {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 60%);
+    top: 1rem;
+    width: 88%;
+    height: 88%;
+    opacity: 0;
+}
+
+.image-card div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.625rem;
+}
+
+.text-card {
+    padding: 0 1.25rem;
+}
+
+
+#title {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#description {
+    color: var(--soft-blue);
+    font-weight: 300;
+    padding: 0.5rem 0;
+}
+
+.price-time {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.price-time img {
+    margin-right: 0.375rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    color: var(--cyan);
+}
+
+
+.time {
+    display: flex;
+    align-items: center;
+    color: var(--soft-blue);
+}
+
+.owner {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--soft-blue);
+}
+
+.owner img {
+    width: 30px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+span {
+    color: var(--white);
+}
+
+hr {
+    align-self: center;
+    border-top: 1px var(--very-dark-blue-line);
+}
+
+#title:hover, span:hover {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+.image-card div:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 0.625rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
